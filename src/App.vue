@@ -30,17 +30,17 @@ export default {
                     productos: 
                     [
                         {
-                            url: '../src/assets/image/hamburguesa.jpg',
+                            url: 'hamburguesa.jpg',
                             descripcion: 'Hamburguesa simple',
                             precio: 100
                         },
                         {
-                            url: '../src/assets/image/hamburguesa.jpg',
+                            url: 'hamburguesa.jpg',
                             descripcion: 'Hamburguesa doble',
                             precio: 200
                         },
                         {
-                            url: '../src/assets/image/hamburguesa.jpg',
+                            url: 'hamburguesa.jpg',
                             descripcion: 'Hamburguesa triple',
                             precio: 300
                         }
@@ -54,17 +54,17 @@ export default {
                     headtable: ['Index', 'Imagen', 'Descripcion', 'Precio'],
                     productos: [
                         {
-                            url: '../src/assets/image/audi.jpg',
+                            url: 'audi.jpg',
                             descripcion: 'Audi A4',
                             precio: 58000
                         },
                         {
-                            url: '../src/assets/image/audi.jpg',
+                            url: 'audi.jpg',
                             descripcion: 'Audi A5',
                             precio: 68000
                         },
                         {
-                            url: '../src/assets/image/audi.jpg',
+                            url: 'audi.jpg',
                             descripcion: 'Audi A5',
                             precio: 78000
                         }
@@ -97,7 +97,7 @@ export default {
                 }
             }
         }
-  }
+  },
 }
 </script>
 

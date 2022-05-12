@@ -15,7 +15,7 @@
                     <tbody class="flex-inline text-2xl" :class="[tabla.fondo]">
                         <tr v-for="(producto, index) of tabla.productos" :key="index">
                             <td>{{index + 1}}</td>
-                            <td><img class="w-1/2 m-auto" :src="producto.url"></td>
+                            <td><img class="w-1/2 m-auto" :src="getimage(producto)"></td>
                             <td>{{producto.descripcion}}</td>
                             <td>$ {{producto.precio}}</td>
                         </tr>
@@ -43,10 +43,27 @@ export default {
             type: Object,
             required: true
         }
+    },
+    methods: {
+      getimage(p){
+          return require(`@/assets/image/${p.url}`)
+      }
     }
 }
-</script>
+</script scoped >
 
 <style>
+tr{
+    display: flex;
+    height: 100%;
+}
 
+th, td{
+    border: 1px solid;
+    width: 100%;
+    padding: 10px;
+}
+td {
+    text-align: center;
+}
 </style>
