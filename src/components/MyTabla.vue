@@ -50,9 +50,9 @@ export default {
       }
     }
 }
-</script scoped >
+</script>
 
-<style>
+<style scoped>
 tr{
     display: flex;
     height: 100%;

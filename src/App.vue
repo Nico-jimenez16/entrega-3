@@ -32,17 +32,17 @@ export default {
                         {
                             url: 'hamburguesa.jpg',
                             descripcion: 'Hamburguesa simple',
-                            precio: 100
+                            precio: 750
                         },
                         {
                             url: 'hamburguesa.jpg',
                             descripcion: 'Hamburguesa doble',
-                            precio: 200
+                            precio: 800
                         },
                         {
                             url: 'hamburguesa.jpg',
                             descripcion: 'Hamburguesa triple',
-                            precio: 300
+                            precio: 1000
                         }
                     ],
                     fondo: 'bg-yellow-300'
